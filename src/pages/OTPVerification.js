@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Link, useNavigate } from "react-router-dom";
-import "C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/pages/OPTVerification.css";
+import "../pages/OTPVerification.js";
 
 const LOCKOUT_DURATION = 30000; // Lockout duration in milliseconds (30 seconds)
 
