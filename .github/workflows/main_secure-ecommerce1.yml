@@ -56,7 +56,9 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
+          ConnectionType: 'AzureRM'
           app-name: 'secure-ecommerce1'
+          appType: 'webAppLinux'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_63B04FEABFE2496BB23A35F4B975FFEB }}
           package: .
