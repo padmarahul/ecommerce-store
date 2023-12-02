@@ -24,6 +24,7 @@ function Welcome() {
   };
 
   return (
+    <>
     <div className="welcome-container">
       // <Slider {...sliderSettings}>
       //   {images.map((image, index) => (
@@ -36,6 +37,7 @@ function Welcome() {
       <p className="welcome-text">Please login to get started.</p>
       <Link to="/login" className="login-button">Login</Link>
     </div>
+    </>
   );
 }
 
