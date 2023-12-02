@@ -19,7 +19,7 @@ app.post("/register", (req, res) => {
   const { email, password } = req.body;
   const userData = { email, password };
 
-  fs.readFile("C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/userss.json", (err, data) => {
+  fs.readFile("https://github.com/padmarahul/ecommerce-store/blob/main/src/userss.json", (err, data) => {
     if (err) {
       return res.status(500).json({ message: "Error reading user data" });
     }
@@ -34,7 +34,7 @@ app.post("/register", (req, res) => {
 
     users.push(userData);
 
-    fs.writeFile("C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/userss.json", JSON.stringify(users), (err) => {
+    fs.writeFile("https://github.com/padmarahul/ecommerce-store/blob/main/src/userss.json", JSON.stringify(users), (err) => {
       if (err) {
         return res.status(500).json({ message: "Error writing user data" });
       }
