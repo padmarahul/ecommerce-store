@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+//import Slider from 'react-slick';
+//import 'slick-carousel/slick/slick.css';
+//import 'slick-carousel/slick/slick-theme.css';
 import './Welcome.css';
 import caveImage from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/cave.jpeg';
 import geminiArtImage from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/geminiart.jpeg';
@@ -25,13 +25,13 @@ function Welcome() {
 
   return (
     <div className="welcome-container">
-      <Slider {...sliderSettings}>
-        {images.map((image, index) => (
-          <div key={index} className="slider-image">
-            <img src={image} alt={`Image ${index + 1}`} className="image-thumbnail" />
-          </div>
-        ))}
-      </Slider>
+      // <Slider {...sliderSettings}>
+      //   {images.map((image, index) => (
+      //     <div key={index} className="slider-image">
+      //       <img src={image} alt={`Image ${index + 1}`} className="image-thumbnail" />
+      //     </div>
+      //   ))}
+      // </Slider>
       <h1 className="welcome-title">Welcome to ArtifyAI</h1>
       <p className="welcome-text">Please login to get started.</p>
       <Link to="/login" className="login-button">Login</Link>
