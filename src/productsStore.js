@@ -1,15 +1,15 @@
 //Art1_Picasso: price_1Nw9YoEQLsa2XJpCPrsjuhLp
 //Art2_MonaLIsa:price_1Nw9afEQLsa2XJpCiLFFm9M3
 //Art3__:price_1Nw9bWEQLsa2XJpCCTTf5rWO
-import reactPic from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/astronaut...jpeg';
-import reactPic2 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/monalisa.png';
-import reactPic3 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/halloweenskull.jpeg';
-import reactPic4 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/vintagecar.jpeg';
-import reactPic5 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/traveller.jpeg';
-import reactPic6 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/rockart.jpeg';
-import reactPic7 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/leaningtower.jpeg';
-import reactPic8 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/cave.jpeg';
-import reactPic9 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/abandoned.jpeg';
+import reactPic from '../src/images/astronaut...jpeg';
+import reactPic2 from '../src/images/monalisa.png';
+import reactPic3 from '../src/images/halloweenskull.jpeg';
+import reactPic4 from '../src/images/vintagecar.jpeg';
+import reactPic5 from '../src/images/traveller.jpeg';
+import reactPic6 from '../src/images/rockart.jpeg';
+import reactPic7 from '../src/images/leaningtower.jpeg';
+import reactPic8 from '../src/images/cave.jpeg';
+import reactPic9 from '../src/images/abandoned.jpeg';
 
 const productsArray = [
     {
