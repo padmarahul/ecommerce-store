@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
-import users from "C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/userss.json"; // Import user data
+import users from "https://github.com/padmarahul/ecommerce-store/blob/main/src/userss.json"; // Import user data
 
 export default function Login() {
   const [email, setEmail] = useState("");
