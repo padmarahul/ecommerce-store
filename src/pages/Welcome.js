@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 //import 'slick-carousel/slick/slick.css';
 //import 'slick-carousel/slick/slick-theme.css';
 import './Welcome.css';
-import caveImage from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/cave.jpeg';
-import geminiArtImage from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/geminiart.jpeg';
-import monaLisaImage from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/astronaut...jpeg';
-import imh1 from 'C:/Users/dever/OneDrive/Desktop/ecommerce/store/src/images/vintagecar.jpeg';
+import caveImage from '../images/cave.jpeg';
+import geminiArtImage from '../images/geminiart.jpeg';
+import monaLisaImage from '../images/astronaut...jpeg';
+import imh1 from '../images/vintagecar.jpeg';
 
 
 function Welcome() {
