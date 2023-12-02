@@ -11,17 +11,8 @@ import imh1 from '../images/vintagecar.jpeg';
 
 
 function Welcome() {
-  const images = [caveImage, geminiArtImage, monaLisaImage,imh1];
 
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,        // 1 second per slide
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000, // 3 seconds per slide
-  };
+
 
   return (
     <div className="welcome-container">
