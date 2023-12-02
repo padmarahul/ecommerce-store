@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Confetti from 'react-confetti';
+//import Confetti from 'react-confetti';
 
 function Success() {
   useEffect(() => {
@@ -15,10 +15,10 @@ function Success() {
     <div>
       <h1>Success!</h1>
       <h1>Artwork has been Purchased</h1>
-      <Confetti
-        width={window.innerWidth}
-        height={window.innerHeight}
-      />
+      // <Confetti
+      //   width={window.innerWidth}
+      //   height={window.innerHeight}
+      // />
     </div>
   );
 }
