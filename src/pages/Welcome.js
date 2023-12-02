@@ -24,20 +24,11 @@ function Welcome() {
   };
 
   return (
-    <>
     <div className="welcome-container">
-      // <Slider {...sliderSettings}>
-      //   {images.map((image, index) => (
-      //     <div key={index} className="slider-image">
-      //       <img src={image} alt={`Image ${index + 1}`} className="image-thumbnail" />
-      //     </div>
-      //   ))}
-      // </Slider>
       <h1 className="welcome-title">Welcome to ArtifyAI</h1>
       <p className="welcome-text">Please login to get started.</p>
       <Link to="/login" className="login-button">Login</Link>
     </div>
-    </>
   );
 }
 
