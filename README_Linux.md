@@ -28,7 +28,8 @@ Ensure that the following files are in the same directory:
 -`scheduler.cpp`
 
 -`generate_tests.cpp`
-- Test case files gets generated from `generate_tests.cpp`  (e.g., `test_5_tasks_1.txt`, `test_5_tasks_2.txt`, etc.)
+
+Test case files gets generated from `generate_tests.cpp`  (e.g., `test_5_tasks_1.txt`, `test_5_tasks_2.txt`, etc.)
 
 ---
 
