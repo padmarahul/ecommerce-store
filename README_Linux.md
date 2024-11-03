@@ -58,11 +58,11 @@ This will generate six executables:
 
 ## Running the Programs
 
-The first step is to generate the test files by running `generate_tests` executable whoch would generate 15 test files(5 tasks for each processes-5,10,15). The priority and the burst time is generated randomnly where the burst time value would be from 5 to 50 ms and the priority would be from 1 to 15.
+1. The first step is to generate the test files by running `generate_tests` executable whoch would generate 15 test files(5 tasks for each processes-5,10,15). The priority and the burst time is generated randomnly where the burst time value would be from 5 to 50 ms and the priority would be from 1 to 15.
 
-The next step is to run the scheduler file which has the conditional main executables written using if directives. When we compile by passinf the directive name, the executables are created for each algorithm type.
+2. The next step is to run the scheduler file which has the conditional main executables written using if directives. When we compile by passinf the directive name, the executables are created for each algorithm type.
 
-Now run the each algorithm by passing each test file name as command line argument.
+3. Now run the each algorithm by passing each test file name as command line argument.
 
 ### Example Command (Replace `test_5_tasks_1.txt` with your test file):
 ```bash
