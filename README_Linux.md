@@ -101,9 +101,15 @@ This script will automatically execute each algorithm with all test cases and di
 Running fcfs with test_5_tasks_1.txt
 ----------------------------------------
 Algorithm: fcfs
+
 Input File: test_5_tasks_1.txt
+
 Output:
+
 FCFS - Average Waiting Time: 2.30
+
 FCFS - Average Turnaround Time: 7.50
+
 FCFS - Average Response Time: 2.30
+
 ----------------------------------------
