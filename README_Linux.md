@@ -24,6 +24,7 @@ Each algorithm is tested using several test case files, with varying numbers of 
 
 ### 2. Project Files
 Ensure that the following files are in the same directory:
+
 -`scheduler.cpp`
 
 -`generate_tests.cpp`
